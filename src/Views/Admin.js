@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Tab, Nav, Card, Button, Badge, Tabs, Container } from 'react-bootstrap';
-import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
+import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineCancel,MdCheckCircleOutline,MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
 import { FaHandshake, FaSdCard } from "react-icons/fa";
 import Avatar from '@mui/material/Avatar';
@@ -221,10 +221,10 @@ function Admin() {
                                                             </div>
                                                             <div className="Btns_container pt-4">
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    Reject
+                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    Accept
+                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
