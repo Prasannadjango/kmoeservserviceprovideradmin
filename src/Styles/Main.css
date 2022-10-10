@@ -213,3 +213,14 @@
     padding: 12px 15px;
     text-align: center;
 }
+.Header_container{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    padding: 10px 30px;
+    align-items: center;
+}
+.Dashboard_container{
+    padding-top: 5%;
+} 

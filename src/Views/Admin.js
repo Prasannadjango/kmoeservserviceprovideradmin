@@ -14,7 +14,8 @@ function Admin() {
     const handleShow = () => setShow(true);
     return (
         <>
-            <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+           <div className="Dashboard_container">
+           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 <Row>
 
                     <Col sm={2}>
@@ -810,6 +811,7 @@ function Admin() {
                     </Col>
                 </Row>
             </Tab.Container>
+           </div>
         </>
     );
 }
