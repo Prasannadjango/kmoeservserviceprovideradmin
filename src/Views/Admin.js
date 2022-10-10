@@ -248,10 +248,10 @@ function Admin() {
 
                                                             </div>
                                                             <div className="Btns_container pt-4">
-                                                                <Button className="bg-danger border-0 w-50 me-3  fs-5">
+                                                                <Button className="bg-danger border-0 w-xl 50 me-xl-3 me-0  mb-xl-0 mb-3 fs-5">
                                                                     <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
-                                                                <Button className='bg-success border-0 w-50 fs-5'>
+                                                                <Button className='bg-success border-0 w-xl-50 fs-5'>
                                                                     <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
@@ -291,10 +291,10 @@ function Admin() {
 
                                                             </div>
                                                             <div className="Btns_container pt-4">
-                                                                <Button className="bg-danger border-0 w-50 me-3  fs-5">
+                                                                <Button className="bg-danger border-0 w-xl 50 me-xl-3 me-0  mb-xl-0 mb-3 fs-5">
                                                                     <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
-                                                                <Button className='bg-success border-0 w-50 fs-5'>
+                                                                <Button className='bg-success border-0 w-xl-50  fs-5'>
                                                                     <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
