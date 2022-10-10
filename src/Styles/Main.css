@@ -1,13 +1,15 @@
 @font-face {
     font-family: 'myfont';
     src: url(../Fonts/Montserrat-Regular.otf),
-    url(../Fonts/Montserrat-Regular.ttf),
-    url(../Fonts/Montserrat-Regular.woff),
-    url(../Fonts/Montserrat-Regular.woff2);
+        url(../Fonts/Montserrat-Regular.ttf),
+        url(../Fonts/Montserrat-Regular.woff),
+        url(../Fonts/Montserrat-Regular.woff2);
 }
-*{
+
+* {
     font-family: 'myfont';
 }
+
 .Dashboard_card {
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -90,6 +92,20 @@
 
 }
 
+.Edit_btn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    top: 64%;
+    right: 27%;
+
+    font-size: 23px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+}
+
 .PlanDetails_container {
     display: flex;
     justify-content: center;
@@ -106,80 +122,94 @@
     border-radius: 50px;
     align-items: center;
 }
-.Payment_text{
+
+.Payment_text {
     justify-content: center;
     font-size: larger;
 }
-.Plan_badge{
+
+.Plan_badge {
     position: absolute;
     right: 0;
     top: -2%;
     padding: 10px;
 }
-.nav-tabs .nav-link{
+
+.nav-tabs .nav-link {
     border-radius: 40px;
     padding: 15px 30px;
     border: 1px solid gray;
     margin: 0 15px;
     font-size: 17px;
-   
+
 }
-.nav-tabs{
+
+.nav-tabs {
     border: 0;
 }
-.nav-tabs .nav-link.active{
+
+.nav-tabs .nav-link.active {
     background-color: #0d6efd;
     color: #fff;
     border: 0;
     font-weight: bold;
 }
-.Order_container{
+
+.Order_container {
     display: flex;
     justify-content: center;
 }
-.Order_Card{
+
+.Order_Card {
     border-radius: 14px;
     border: 0;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
 }
-.Ordercard_img{
-   width: 90px;
-   height: 90px;
-   border-radius: 45px;
-   
+
+.Ordercard_img {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+
 }
-.Order_Card>div>div:nth-child(1)>img{
+
+.Order_Card>div>div:nth-child(1)>img {
     border-radius: inherit;
     object-position: center;
 }
-.Ordercard_heading{
+
+.Ordercard_heading {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.servicetype{
+
+.servicetype {
     width: fit-content !important;
     border-radius: 20px !important;
-    background-color:#0d6efd ;
+    background-color: #0d6efd;
     padding: 10px;
-    color:#fff;
+    color: #fff;
     font-weight: bold;
     text-align: center;
- 
+
     font-size: 15px;
 }
+
 .mw {
     width: max-content;
 }
-.Btns_container{
+
+.Btns_container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.Btns_container > button{
+
+.Btns_container>button {
     padding: 12px 15px;
     text-align: center;
 }

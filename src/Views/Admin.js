@@ -1,26 +1,52 @@
-import React from "react";
-import { Col, Row, Tab, Nav, Card, Button, Badge, Tabs, Container } from 'react-bootstrap';
-import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineCancel, MdAddLocationAlt, MdCheckCircleOutline, MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
+import React ,{useState} from "react";
+import { Col, Row, Tab, Nav, Card, Button, Badge, Tabs ,Modal,Form} from 'react-bootstrap';
+import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdEdit, MdLogout, MdOutlineCancel, MdAddLocationAlt, MdCheckCircleOutline, MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
 import { FaHandshake, FaSdCard } from "react-icons/fa";
 import Avatar from '@mui/material/Avatar';
 import Pagination from '@mui/material/Pagination';
 import person from '../Styles/orderperson.jpg';
-import { ButtonBase } from "@mui/material";
-function Admin() {
 
+function Admin() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <>
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 <Row>
 
                     <Col sm={2}>
-                        <div className="d-flex justify-content-center my-5">
+                        <div className="d-flex position-relative justify-content-center my-5">
                             <Avatar
                                 alt="Remy Sharp"
                                 src="/static/images/avatar/1.jpg"
-                                sx={{ width: 70, height: 70 }}
+                                sx={{ width: 75, height: 75 }}
                             />
+                            <Button className='Edit_btn' onClick={handleShow}>
+                                <MdEdit />
+                            </Button>
+                            <Modal show={show} onHide={handleClose}>
+                                <Modal.Header closeButton>
+                                    <Modal.Title>Edit Profile Details</Modal.Title>
+                                </Modal.Header>
+                                <Modal.Body>
+                                <Form.Control type="text" placeholder="Enter the Name.." className="py-3"/>
+                                <Form.Control type="mail" placeholder="Enter the Mail-id.." className="py-3 mt-3"/>
+                                <Form.Control type="Number" placeholder="Enter the Phone-Number.." className="py-3 mt-3"/>
+                                <Form.Control type="text" placeholder="Enter the City.." className="py-3 mt-3"/>
+                                <Form.Control type="Number" placeholder="Enter the Pin-code.." className="py-3 mt-3"/>
+                                <Form.Control type="text" placeholder="Enter the Area.." className="py-3 mt-3"/>
+                                <Form.Control as="textarea" placeholder="Enter the Address..." rows={3}  className="mt-3"/>
+                                </Modal.Body>
+                                <Modal.Footer>
+                                   
+                                    <Button variant="primary" className='w-100 py-3 fw-bold' onClick={handleClose}>
+                                        Save Changes
+                                    </Button>
+                                </Modal.Footer>
+                            </Modal>
                         </div>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
@@ -692,7 +718,7 @@ function Admin() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Fourth">
                                 <div className="mt-5 container px-5">
-                                    <Row  xl={2} xs={1}>
+                                    <Row xl={2} xs={1}>
                                         <Col>
                                             <Card className="Plancard pt-3 position-relative">
 
@@ -775,7 +801,7 @@ function Admin() {
                                             </Card>
                                         </Col>
 
-                                       
+
 
                                     </Row>
                                 </div>
