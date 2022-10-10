@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Tab, Nav, Card } from 'react-bootstrap';
-import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout,MdOutlineDescription,MdWatchLater } from "react-icons/md";
+import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineDescription, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
 import { FaHandshake } from "react-icons/fa";
 import Avatar from '@mui/material/Avatar';
@@ -60,92 +60,103 @@ function Admin() {
                         </Nav>
                     </Col>
 
-                    <Col sm={10} className='p-0 mt-4'>
+                    <Col sm={10} className='p-0 mt-4 bg-light'>
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
-                                <div className="Dashboard_container container">
+                                <div className="Dashboard_container container py-3">
+                                    <h1 className="py-4">Welcome Rambo !</h1>
                                     <Row xl={4} md={2} xs={1}>
                                         <Col>
                                             <Card className="Dashboard_card py-3 px-2">
-                                                  <div className="d-flex card_head">
+                                                <div className="d-flex card_head">
                                                     <div>
-                                                       <MdOutlineDescription className="fs-3 text-white"/>
+                                                        <MdOutlineDescription className="fs-3 text-white" />
                                                     </div>
-                                                  <h3 className="ps-3">Bookings</h3>
-                                                  </div>
-                                                  <div className="d-flex justify-content-center pt-3">
-                                                     <div className="pe-5">
-                                                      <p className="fs-6 text-black-50 m-0">Completed</p>
-                                                      <p className="fs-5  m-0"> 12 </p>
-                                                     </div>
-                                                     <div>
-                                                      <p className="fs-6 text-black-50 m-0">Cancelled</p>
-                                                      <p className="fs-5 m-0"> 5 </p>
-                                                     </div>
-                                                  </div>
+                                                    <h3 className="ps-3">Bookings</h3>
+                                                </div>
+                                                <div className="d-flex justify-content-center pt-3">
+                                                    <div className="pe-5">
+                                                        <p className="fs-6 text-black-50 m-0">Completed</p>
+                                                        <p className="fs-5  m-0"> 12 </p>
+                                                    </div>
+                                                    <div>
+                                                        <p className="fs-6 text-black-50 m-0">Cancelled</p>
+                                                        <p className="fs-5 m-0"> 5 </p>
+                                                    </div>
+                                                </div>
                                             </Card>
                                         </Col>
                                         <Col>
                                             <Card className="Dashboard_card1 py-3 px-2">
-                                                  <div className="d-flex card_head1">
+                                                <div className="d-flex card_head1">
                                                     <div>
-                                                       <VscServerProcess className="fs-3 text-white"/>
+                                                        <VscServerProcess className="fs-3 text-white" />
                                                     </div>
-                                                  <h3 className="ps-3">Processing</h3>
-                                                  </div>
-                                                  <div className="d-flex justify-content-center pt-3">
-                                                     <div className="pe-5">
-                                                      <p className="fs-6 text-black-50 m-0">Completed</p>
-                                                      <p className="fs-5  m-0"> 12 </p>
-                                                     </div>
-                                                     <div>
-                                                      <p className="fs-6 text-black-50 m-0">Cancelled</p>
-                                                      <p className="fs-5 m-0"> 5 </p>
-                                                     </div>
-                                                  </div>
+                                                    <h3 className="ps-3">Processing</h3>
+                                                </div>
+                                                <div className="d-flex justify-content-center pt-3">
+                                                    <div className="pe-5">
+                                                        <p className="fs-6 text-black-50 m-0">Completed</p>
+                                                        <p className="fs-5  m-0"> 12 </p>
+                                                    </div>
+                                                    <div>
+                                                        <p className="fs-6 text-black-50 m-0">Cancelled</p>
+                                                        <p className="fs-5 m-0"> 5 </p>
+                                                    </div>
+                                                </div>
                                             </Card>
                                         </Col>
                                         <Col>
                                             <Card className="Dashboard_card2 py-3 px-2">
-                                                  <div className="d-flex card_head2">
+                                                <div className="d-flex card_head2">
                                                     <div>
-                                                       <MdWatchLater className="fs-3 text-white"/>
+                                                        <MdWatchLater className="fs-3 text-white" />
                                                     </div>
-                                                  <h3 className="ps-3">Scheduled</h3>
-                                                  </div>
-                                                  <div className="d-flex justify-content-center pt-3">
-                                                     <div className="pe-5">
-                                                      <p className="fs-6 text-black-50 m-0">Completed</p>
-                                                      <p className="fs-5  m-0"> 12 </p>
-                                                     </div>
-                                                     <div>
-                                                      <p className="fs-6 text-black-50 m-0">Cancelled</p>
-                                                      <p className="fs-5 m-0"> 5 </p>
-                                                     </div>
-                                                  </div>
+                                                    <h3 className="ps-3">Scheduled</h3>
+                                                </div>
+                                                <div className="d-flex justify-content-center pt-3">
+                                                    <div className="pe-5">
+                                                        <p className="fs-6 text-black-50 m-0">Completed</p>
+                                                        <p className="fs-5  m-0"> 12 </p>
+                                                    </div>
+                                                    <div>
+                                                        <p className="fs-6 text-black-50 m-0">Cancelled</p>
+                                                        <p className="fs-5 m-0"> 5 </p>
+                                                    </div>
+                                                </div>
                                             </Card>
                                         </Col>
                                         <Col>
                                             <Card className="Dashboard_card3 py-3 px-2">
-                                                  <div className="d-flex card_head3">
+                                                <div className="d-flex card_head3">
                                                     <div>
-                                                       <FaHandshake className="fs-3 text-white"/>
+                                                        <FaHandshake className="fs-3 text-white" />
                                                     </div>
-                                                  <h3 className="ps-3">Completed</h3>
-                                                  </div>
-                                                  <div className="d-flex justify-content-center pt-3">
-                                                     <div className="pe-5">
-                                                      <p className="fs-6 text-black-50 m-0">Completed</p>
-                                                      <p className="fs-5  m-0"> 12 </p>
-                                                     </div>
-                                                     <div>
-                                                      <p className="fs-6 text-black-50 m-0">Cancelled</p>
-                                                      <p className="fs-5 m-0"> 5 </p>
-                                                     </div>
-                                                  </div>
+                                                    <h3 className="ps-3">Completed</h3>
+                                                </div>
+                                                <div className="d-flex justify-content-center pt-3">
+                                                    <div className="pe-5">
+                                                        <p className="fs-6 text-black-50 m-0">Completed</p>
+                                                        <p className="fs-5  m-0"> 12 </p>
+                                                    </div>
+                                                    <div>
+                                                        <p className="fs-6 text-black-50 m-0">Cancelled</p>
+                                                        <p className="fs-5 m-0"> 5 </p>
+                                                    </div>
+                                                </div>
                                             </Card>
                                         </Col>
                                     </Row>
+                                    <div className="PlanDetails_container pt-5">
+                                  
+                                        <Col xl={5} xs={12}>
+                                            <Card className="Plancard">
+                                               <span className="Plancard_head bg-primary m-2 text-center p-2">
+                                                   <h2 className='text-white'>Gold</h2>
+                                               </span>
+                                            </Card>
+                                        </Col>
+                                    </div>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
