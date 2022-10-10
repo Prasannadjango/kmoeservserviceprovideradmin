@@ -151,9 +151,10 @@ function Admin() {
                                   
                                         <Col xl={5} xs={12}>
                                             <Card className="Plancard">
-                                               <span className="Plancard_head bg-primary m-2 text-center p-2">
-                                                   <h2 className='text-white'>Gold</h2>
-                                               </span>
+                                               <div className="Plancard_head bg-primary p-2 ">
+                                                   <h2 className='text-white'>$10</h2>
+                                               </div>
+
                                             </Card>
                                         </Col>
                                     </div>
