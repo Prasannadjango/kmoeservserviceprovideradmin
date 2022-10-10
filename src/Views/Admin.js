@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Tab, Nav, Card } from 'react-bootstrap';
+import { Col, Row, Tab, Nav, Card, Button,Badge } from 'react-bootstrap';
 import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineDescription, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
 import { FaHandshake } from "react-icons/fa";
@@ -148,13 +148,28 @@ function Admin() {
                                         </Col>
                                     </Row>
                                     <div className="PlanDetails_container pt-5">
-                                  
-                                        <Col xl={5} xs={12}>
-                                            <Card className="Plancard">
-                                               <div className="Plancard_head bg-primary p-2 ">
-                                                   <h2 className='text-white'>$10</h2>
-                                               </div>
 
+                                        <Col xl={4} xs={12}>
+                                            <Card className="Plancard pt-3 position-relative">
+                                                <Badge pill bg="success" className='Plan_badge'>
+                                                    Active Plan
+                                                </Badge>
+                                                <h1 className="text-center display-4">Gold</h1>
+                                                <div className="Plancard_head bg-primary  ">
+                                                    <h3 className='text-white m-0'>$10</h3>
+                                                </div>
+                                                <div className='d-flex Payment_text'>
+                                                    <p>Last-Payment:</p>
+                                                    <p className="text-secondary">12/2/21</p>
+                                                </div>
+                                                <Card.Body>
+                                                    <p className='text-secondary text-center'>
+                                                        Due date : 12/2/22
+                                                    </p>
+                                                    <Button className='w-100 py-2 fs-5 mt-2'>
+                                                        Change Plan
+                                                    </Button>
+                                                </Card.Body>
                                             </Card>
                                         </Col>
                                     </div>
