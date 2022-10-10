@@ -2,7 +2,7 @@ import React ,{useState} from "react";
 import { Col, Row, Tab, Nav, Card, Button, Badge, Tabs ,Modal,Form} from 'react-bootstrap';
 import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdEdit, MdLogout, MdOutlineCancel, MdAddLocationAlt, MdCheckCircleOutline, MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
-import { FaHandshake, FaSdCard } from "react-icons/fa";
+import { FaHandshake} from "react-icons/fa";
 import Avatar from '@mui/material/Avatar';
 import Pagination from '@mui/material/Pagination';
 import person from '../Styles/orderperson.jpg';
