@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(../Fonts/Montserrat-Regular.otf),
+    url(../Fonts/Montserrat-Regular.ttf),
+    url(../Fonts/Montserrat-Regular.woff),
+    url(../Fonts/Montserrat-Regular.woff2);
+}
+*{
+    font-family: 'myfont';
+}
 .Dashboard_card {
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
