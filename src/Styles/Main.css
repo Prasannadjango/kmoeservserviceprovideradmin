@@ -179,3 +179,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.Btns_container > button{
+    padding: 12px 15px;
+    text-align: center;
+}

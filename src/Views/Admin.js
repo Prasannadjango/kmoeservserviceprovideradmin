@@ -220,7 +220,7 @@ function Admin() {
 
                                                             </div>
                                                             <div className="Btns_container pt-4">
-                                                                <Button className="bg-danger border-0 w-50 me-3 py-2 fs-5">
+                                                                <Button className="bg-danger border-0 w-50 me-3  fs-5">
                                                                     Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
