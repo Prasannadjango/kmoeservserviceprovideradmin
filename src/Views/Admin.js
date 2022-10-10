@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Tab, Nav, Card, Button, Badge, Tabs, Container } from 'react-bootstrap';
-import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineCancel,MdAddLocationAlt,MdCheckCircleOutline,MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
+import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineCancel, MdAddLocationAlt, MdCheckCircleOutline, MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
 import { FaHandshake, FaSdCard } from "react-icons/fa";
 import Avatar from '@mui/material/Avatar';
@@ -222,10 +222,10 @@ function Admin() {
                                                             </div>
                                                             <div className="Btns_container pt-4">
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -265,10 +265,10 @@ function Admin() {
                                                             </div>
                                                             <div className="Btns_container pt-4">
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -279,12 +279,12 @@ function Admin() {
                                         </div>
 
                                         <div className='d-flex justify-content-center mb-5  mt-5'>
-                                        <Pagination count={10} size="large" />
+                                            <Pagination count={10} size="large" />
                                         </div>
 
                                     </Tab>
                                     <Tab eventKey="Processing" title="Processing">
-                                    <div className="my-5 ">
+                                        <div className="my-5 ">
                                             <Row className='justify-content-center'>
                                                 <Col xl={4}>
                                                     <Card className='Order_Card px-3 py-4'>
@@ -319,15 +319,15 @@ function Admin() {
                                                             </div>
                                                             <div className="Btns_container pt-4">
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
                                                             <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
+                                                                <Button className="bg-primary border-0 w-50 me-3  fs-5">
+                                                                    <MdAddLocationAlt className='fs-3 me-1' /> Track
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -366,17 +366,17 @@ function Admin() {
 
                                                             </div>
                                                             <div className="Btns_container pt-4">
-                                                          
+
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Cancel
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Cancel
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Arrived
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Arrived
                                                                 </Button>
                                                             </div>
                                                             <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
+                                                                <Button className="bg-primary border-0 w-50 me-3  fs-5">
+                                                                    <MdAddLocationAlt className='fs-3 me-1' /> Track
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -387,12 +387,12 @@ function Admin() {
                                         </div>
 
                                         <div className='d-flex justify-content-center mb-5  mt-5'>
-                                        <Pagination count={10} size="large" />
+                                            <Pagination count={10} size="large" />
                                         </div>
 
                                     </Tab>
                                     <Tab eventKey="Completed" title="Completed">
-                                    <div className="my-5 ">
+                                        <div className="my-5 ">
                                             <Row className='justify-content-center'>
                                                 <Col xl={4}>
                                                     <Card className='Order_Card px-3 py-4'>
@@ -427,15 +427,15 @@ function Admin() {
                                                             </div>
                                                             <div className="Btns_container pt-4">
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
                                                             <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
+                                                                <Button className="bg-primary border-0 w-50 me-3  fs-5">
+                                                                    <MdAddLocationAlt className='fs-3 me-1' /> Track
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -474,17 +474,17 @@ function Admin() {
 
                                                             </div>
                                                             <div className="Btns_container pt-4">
-                                                          
+
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Cancel
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Cancel
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Arrived
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Arrived
                                                                 </Button>
                                                             </div>
                                                             <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
+                                                                <Button className="bg-primary border-0 w-50 me-3  fs-5">
+                                                                    <MdAddLocationAlt className='fs-3 me-1' /> Track
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -495,11 +495,11 @@ function Admin() {
                                         </div>
 
                                         <div className='d-flex justify-content-center mb-5  mt-5'>
-                                        <Pagination count={10} size="large" />
+                                            <Pagination count={10} size="large" />
                                         </div>
                                     </Tab>
                                     <Tab eventKey="Scheduled" title="Scheduled">
-                                    <div className="my-5 ">
+                                        <div className="my-5 ">
                                             <Row className='justify-content-center'>
                                                 <Col xl={4}>
                                                     <Card className='Order_Card px-3 py-4'>
@@ -534,15 +534,15 @@ function Admin() {
                                                             </div>
                                                             <div className="Btns_container pt-4">
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Reject
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Accept
                                                                 </Button>
                                                             </div>
                                                             <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
+                                                                <Button className="bg-primary border-0 w-50 me-3  fs-5">
+                                                                    <MdAddLocationAlt className='fs-3 me-1' /> Track
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -581,17 +581,17 @@ function Admin() {
 
                                                             </div>
                                                             <div className="Btns_container pt-4">
-                                                          
+
                                                                 <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Cancel
+                                                                    <MdOutlineCancel className='fs-3 me-1' /> Cancel
                                                                 </Button>
                                                                 <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Arrived
+                                                                    <MdCheckCircleOutline className='fs-3 me-1' /> Arrived
                                                                 </Button>
                                                             </div>
                                                             <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
+                                                                <Button className="bg-primary border-0 w-50 me-3  fs-5">
+                                                                    <MdAddLocationAlt className='fs-3 me-1' /> Track
                                                                 </Button>
                                                             </div>
                                                         </Card.Body>
@@ -602,11 +602,11 @@ function Admin() {
                                         </div>
 
                                         <div className='d-flex justify-content-center mb-5  mt-5'>
-                                        <Pagination count={10} size="large" />
+                                            <Pagination count={10} size="large" />
                                         </div>
                                     </Tab>
                                     <Tab eventKey="Cancelled" title="Cancelled">
-                                    <div className="my-5 ">
+                                        <div className="my-5 ">
                                             <Row className='justify-content-center'>
                                                 <Col xl={4}>
                                                     <Card className='Order_Card px-3 py-4'>
@@ -639,19 +639,7 @@ function Admin() {
                                                                 </div>
 
                                                             </div>
-                                                            <div className="Btns_container pt-4">
-                                                                <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Reject
-                                                                </Button>
-                                                                <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Accept
-                                                                </Button>
-                                                            </div>
-                                                            <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
-                                                                </Button>
-                                                            </div>
+
                                                         </Card.Body>
                                                     </Card>
 
@@ -687,20 +675,7 @@ function Admin() {
                                                                 </div>
 
                                                             </div>
-                                                            <div className="Btns_container pt-4">
-                                                          
-                                                                <Button className="bg-danger border-0 w-50 me-3  fs-5">
-                                                                    <MdOutlineCancel className='fs-3 me-1'/> Cancel
-                                                                </Button>
-                                                                <Button className='bg-success border-0 w-50 fs-5'>
-                                                                    <MdCheckCircleOutline className='fs-3 me-1'/> Arrived
-                                                                </Button>
-                                                            </div>
-                                                            <div className="Btns_container pt-3">
-                                                            <Button className="bg-primary border-0 w-50 me-3  fs-5">
-                                                                    <MdAddLocationAlt className='fs-3 me-1'/> Track
-                                                                </Button>
-                                                            </div>
+
                                                         </Card.Body>
                                                     </Card>
 
@@ -709,11 +684,101 @@ function Admin() {
                                         </div>
 
                                         <div className='d-flex justify-content-center mb-5  mt-5'>
-                                        <Pagination count={10} size="large" />
+                                            <Pagination count={10} size="large" />
                                         </div>
                                     </Tab>
 
                                 </Tabs>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="Fourth">
+                                <div className="mt-5 container px-5">
+                                    <Row  xl={2} xs={1}>
+                                        <Col>
+                                            <Card className="Plancard pt-3 position-relative">
+
+                                                <h1 className="text-center display-4">Gold</h1>
+                                                <div className="Plancard_head bg-primary  ">
+                                                    <h3 className='text-white m-0'>$10</h3>
+                                                </div>
+
+                                                <Card.Body>
+                                                    <ol className="fs-5 text-black-50">
+                                                        <li>10 Service per day</li>
+                                                        <li>Addon Services available</li>
+                                                        <li> Validity till plan get expired</li>
+                                                    </ol>
+                                                    <Button className='w-100 py-2 fs-5 mt-2 border border-2 border-primary text-primary bg-white fw-bold'>
+                                                        Subsricbed
+                                                    </Button>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+
+                                        <Col>
+                                            <Card className="Plancard pt-3 position-relative">
+
+                                                <h1 className="text-center display-4">Platinum</h1>
+                                                <div className="Plancard_head bg-primary  ">
+                                                    <h3 className='text-white m-0'>$20</h3>
+                                                </div>
+
+                                                <Card.Body>
+                                                    <ol className="fs-5 text-black-50">
+                                                        <li>10 Service per day</li>
+                                                        <li>Addon Services available</li>
+                                                        <li> Validity till plan get expired</li>
+                                                    </ol>
+                                                    <Button className='w-100 py-2 fs-5 mt-2 '>
+                                                        Choose Plan
+                                                    </Button>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col className='mt-4'>
+                                            <Card className="Plancard pt-3 position-relative">
+
+                                                <h1 className="text-center display-4">Silver</h1>
+                                                <div className="Plancard_head bg-primary  ">
+                                                    <h3 className='text-white m-0'>$5</h3>
+                                                </div>
+
+                                                <Card.Body>
+                                                    <ol className="fs-5 text-black-50">
+                                                        <li>10 Service per day</li>
+                                                        <li>Addon Services available</li>
+                                                        <li> Validity till plan get expired</li>
+                                                    </ol>
+                                                    <Button className='w-100 py-2 fs-5 mt-2 '>
+                                                        Choose Plan
+                                                    </Button>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col className='mt-4'>
+                                            <Card className="Plancard pt-3 position-relative">
+
+                                                <h1 className="text-center display-4">Diamond</h1>
+                                                <div className="Plancard_head bg-primary  ">
+                                                    <h3 className='text-white m-0'>$55</h3>
+                                                </div>
+
+                                                <Card.Body>
+                                                    <ol className="fs-5 text-black-50">
+                                                        <li>10 Service per day</li>
+                                                        <li>Addon Services available</li>
+                                                        <li> Validity till plan get expired</li>
+                                                    </ol>
+                                                    <Button className='w-100 py-2 fs-5 mt-2 '>
+                                                        Choose Plan
+                                                    </Button>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+
+                                       
+
+                                    </Row>
+                                </div>
                             </Tab.Pane>
                         </Tab.Content>
                     </Col>
