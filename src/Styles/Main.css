@@ -116,3 +116,66 @@
     top: -2%;
     padding: 10px;
 }
+.nav-tabs .nav-link{
+    border-radius: 40px;
+    padding: 15px 30px;
+    border: 1px solid gray;
+    margin: 0 15px;
+    font-size: 17px;
+   
+}
+.nav-tabs{
+    border: 0;
+}
+.nav-tabs .nav-link.active{
+    background-color: #0d6efd;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+}
+.Order_container{
+    display: flex;
+    justify-content: center;
+}
+.Order_Card{
+    border-radius: 14px;
+    border: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.Ordercard_img{
+   width: 90px;
+   height: 90px;
+   border-radius: 45px;
+   
+}
+.Order_Card>div>div:nth-child(1)>img{
+    border-radius: inherit;
+    object-position: center;
+}
+.Ordercard_heading{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.servicetype{
+    width: fit-content !important;
+    border-radius: 20px !important;
+    background-color:#0d6efd ;
+    padding: 10px;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+ 
+    font-size: 15px;
+}
+.mw {
+    width: max-content;
+}
+.Btns_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

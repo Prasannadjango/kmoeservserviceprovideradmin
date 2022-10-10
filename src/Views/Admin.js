@@ -1,9 +1,11 @@
 import React from "react";
-import { Col, Row, Tab, Nav, Card, Button, Badge } from 'react-bootstrap';
-import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdOutlineDescription, MdWatchLater } from "react-icons/md";
+import { Col, Row, Tab, Nav, Card, Button, Badge, Tabs, Container } from 'react-bootstrap';
+import { MdDashboardCustomize, MdFormatListBulleted, MdOutlineTextSnippet, MdLogout, MdAccessTime, MdCalendarToday, MdOutlineDescription, MdLocationOn, MdWatchLater } from "react-icons/md";
 import { VscServerProcess } from "react-icons/vsc";
-import { FaHandshake } from "react-icons/fa";
+import { FaHandshake, FaSdCard } from "react-icons/fa";
 import Avatar from '@mui/material/Avatar';
+import person from '../Styles/orderperson.jpg';
+import { ButtonBase } from "@mui/material";
 function Admin() {
 
     return (
@@ -175,8 +177,78 @@ function Admin() {
                                     </div>
                                 </div>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="second">
+                            <Tab.Pane eventKey="Third">
+                                <Tabs
+                                    defaultActiveKey="Available"
+                                    transition={false}
+                                    id="noanim-tab-example"
+                                    className="Order_container mt-5"
+                                >
+                                    <Tab eventKey="Available" title="Available">
 
+                                        <div className="mt-5">
+                                            <Row className='justify-content-center'>
+                                                <Col xl={4}>
+                                                    <Card className='Order_Card px-3 py-4'>
+                                                        <div className="d-flex">
+                                                            <div className='Ordercard_img'>
+                                                                <img src={person} className='w-100 h-100' />
+                                                            </div>
+                                                            <div className="Ordercard_heading">
+                                                                <h2 className='fw-bold'>Kanmani</h2>
+                                                                <h6 className="text-secondary">Service-ID:#654321</h6>
+                                                            </div>
+
+                                                        </div>
+                                                        <div>
+                                                            <span className="servicetype">Painting</span>
+                                                        </div>
+                                                        <Card.Body className=' p-0'>
+                                                            <div className='mt-4'>
+                                                                <div className="d-flex mw align-items-center">
+                                                                    <MdLocationOn className="fs-2 text-primary" />
+                                                                    <p className="text-black-50 fs-6 ps-2 m-0">Anna Nagar</p>
+                                                                </div>
+                                                                <div className="d-flex mw pt-3 align-items-center">
+                                                                    <MdCalendarToday className="fs-2 text-primary" />
+                                                                    <p className="text-black-50 fs-6 ps-2 m-0"> 06-03-2022</p>
+                                                                </div>
+                                                                <div className="d-flex mw pt-3 align-items-center">
+                                                                    <MdAccessTime className="fs-2 text-primary" />
+                                                                    <p className="text-black-50 fs-6 ps-2 m-0">6:00pm</p>
+                                                                </div>
+
+                                                            </div>
+                                                            <div className="Btns_container pt-4">
+                                                                <Button className="bg-danger border-0 w-50 me-3 py-2 fs-5">
+                                                                    Reject
+                                                                </Button>
+                                                                <Button className='bg-success border-0 w-50 fs-5'>
+                                                                    Accept
+                                                                </Button>
+                                                            </div>
+                                                        </Card.Body>
+                                                    </Card>
+
+                                                </Col>
+                                            </Row>
+                                        </div>
+
+                                    </Tab>
+                                    <Tab eventKey="Processing" title="Processing">
+
+                                    </Tab>
+                                    <Tab eventKey="Completed" title="Completed">
+
+                                    </Tab>
+                                    <Tab eventKey="Scheduled" title="Scheduled">
+
+                                    </Tab>
+                                    <Tab eventKey="Cancelled" title="Cancelled">
+
+                                    </Tab>
+
+                                </Tabs>
                             </Tab.Pane>
                         </Tab.Content>
                     </Col>
