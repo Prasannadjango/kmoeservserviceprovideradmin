@@ -28,4 +28,14 @@
     .Btns_container{
         flex-direction: column;
     }
+    .Plancards_container{
+        padding: 0;
+    }
+    .Plancards_container>.row>.col:nth-child(2){
+        margin-top: 20px;
+    }
+    .Edit_btn{
+        top: 65%;
+        right: 37%;
+    }
 }

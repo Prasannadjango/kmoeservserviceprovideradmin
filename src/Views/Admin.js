@@ -707,7 +707,7 @@ function Admin() {
                                     </Tabs>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="Fourth">
-                                    <div className="mt-5 container px-5">
+                                    <div className="mt-5 Plancards_container">
                                         <Row xl={2} xs={1}>
                                             <Col>
                                                 <Card className="Plancard pt-3 position-relative">
