@@ -25,4 +25,7 @@
     .Order_Card{
         margin: 10px 0;
     }
+    .Btns_container{
+        flex-direction: column;
+    }
 }
