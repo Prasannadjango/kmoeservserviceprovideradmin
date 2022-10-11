@@ -16,9 +16,9 @@ function Admin() {
         <>
             <div className="Dashboard_container">
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                    <Row>
+                    <Row >
 
-                        <Col sm={2}>
+                        <Col xl={2} >
                             <div className="d-flex position-relative justify-content-center my-5">
                                 <Avatar
                                     alt="Remy Sharp"
@@ -82,12 +82,12 @@ function Admin() {
                             </Nav>
                         </Col>
 
-                        <Col sm={10} className='p-0 mt-2 bg-light'>
+                        <Col xl={10} className='p-0 mt-2 bg-light'>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <div className="Dashboard_container container py-3">
                                         <h1 className="py-4">Welcome Rambo !</h1>
-                                        <Row xl={4} md={2} xs={1}>
+                                        <Row xl={4} lg={2} md={2} xs={1}>
                                             <Col>
                                                 <Card className="Dashboard_card py-3 px-2">
                                                     <div className="d-flex card_head">

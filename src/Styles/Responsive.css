@@ -39,3 +39,44 @@
         right: 37%;
     }
 }
+@media (min-width:426px) and (max-width:768px) {
+    .Dashboard_container>h1{
+        text-align: center;
+    }
+    .Dashboard_container>div:nth-child(1){
+        padding: 0 15px;
+    }
+    .Dashboard_card,
+    .Dashboard_card1,
+    .Dashboard_card2,
+    .Dashboard_card3{
+        margin: 10px 0;
+    }
+    .Dashboard_container{
+        padding-top: 10%;
+    }
+    .Order_container{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: unset;
+    }
+    .tab-content{
+        padding: 0 15px;
+    }
+    .Order_Card{
+        margin: 10px 0;
+    }
+    .Btns_container{
+        flex-direction: column;
+    }
+    .Plancards_container{
+        padding: 0;
+    }
+    .Plancards_container>.row>.col:nth-child(2){
+        margin-top: 20px;
+    }
+    .Edit_btn{
+        top: 65%;
+        right: 37%;
+    }
+}
