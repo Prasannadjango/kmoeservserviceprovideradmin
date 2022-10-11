@@ -2,6 +2,7 @@ import React from "react";
 import logo from '../Styles/kslogo.png';
 import { Button } from 'react-bootstrap';
 import { IoMdNotificationsOutline } from "react-icons/io";
+import { CgLogOut } from "react-icons/cg";
 function Header() {
     return (
         <>
@@ -12,6 +13,9 @@ function Header() {
                 <div>
                     <Button className='bg-transparent text-dark fs-3 border-0'>
                           <IoMdNotificationsOutline/>
+                    </Button>
+                    <Button className='bg-transparent text-dark fs-3 border-0'>
+                          <CgLogOut/>
                     </Button>
                 </div>
             </div>
