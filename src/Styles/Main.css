@@ -227,3 +227,12 @@
 .Plancards_container {
     padding: 0 140px;
 }
+.Login_formcontainer {
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 2px solid grey;
+padding: 45px;
+border-radius: 10px;
+}
